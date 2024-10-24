@@ -1,0 +1,41 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AppMetrica",
+    "printedName": "AppMetrica",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Init",
+        "printedName": "Init",
+        "declKind": "Class",
+        "usr": "s:10AppMetrica4InitC",
+        "mangledName": "$s10AppMetrica4InitC",
+        "moduleName": "AppMetrica",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

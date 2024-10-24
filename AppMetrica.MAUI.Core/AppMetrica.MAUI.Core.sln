@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMetrica.MAUI.Core", "AppMetrica.MAUI.Core.csproj", "{F90FD1AE-6188-4205-BA64-13B409D30ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMetrica.MAUI.iOS", "..\AppMetrica.MAUI.iOS\AppMetrica.MAUI.iOS.csproj", "{C19A6E2D-6705-4CBB-8549-B28C55E0ED3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F90FD1AE-6188-4205-BA64-13B409D30ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90FD1AE-6188-4205-BA64-13B409D30ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90FD1AE-6188-4205-BA64-13B409D30ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90FD1AE-6188-4205-BA64-13B409D30ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19A6E2D-6705-4CBB-8549-B28C55E0ED3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19A6E2D-6705-4CBB-8549-B28C55E0ED3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19A6E2D-6705-4CBB-8549-B28C55E0ED3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19A6E2D-6705-4CBB-8549-B28C55E0ED3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44EC1011-1681-4AD3-B323-F6E839D6E63B}
+	EndGlobalSection
+EndGlobal
