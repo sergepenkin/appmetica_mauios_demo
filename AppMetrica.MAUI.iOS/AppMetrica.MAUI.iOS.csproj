@@ -4,6 +4,10 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
+    <PackageId>AppMetrica.Maui.Ios</PackageId>
+    <Version>5.8.1</Version>
+    <Authors>sergepenkin</Authors>
+    <Company>sergepenkin</Company>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <WarningLevel>4</WarningLevel>
