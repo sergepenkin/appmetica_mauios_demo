@@ -20,7 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AppMetrica.MAUI.Core\AppMetrica.MAUI.Core.csproj" />
   </ItemGroup>
-  <ItemGroup>     
+  <ItemGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'">     
     <NativeReference Include="..\AppMetrica.xcframework\ios-arm64_x86_64-simulator\AppMetrica.framework" >     
       <Kind>Framework</Kind>
       <SmartLink>True</SmartLink>
@@ -32,6 +32,19 @@
       
     </NativeReference>
   </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-ios|AnyCPU'">     
+    <NativeReference Include="..\AppMetrica.xcframework\ios-arm64\AppMetrica.framework" >     
+      <Kind>Framework</Kind>
+      <SmartLink>True</SmartLink>
+      <ForceLoad>False</ForceLoad>
+      
+      <Frameworks>SystemConfiguration Security UIKit Foundation CoreTelephony CoreLocation CoreGraphics AdSupport</Frameworks>      
+       <LinkerFlags>-lz -lc++ -lsqlite3 -ObjC</LinkerFlags>
+      <WeakFrameworks>AdServices iAd</WeakFrameworks>
+      
+    </NativeReference>
+  </ItemGroup>
+
   <!--<PropertyGroup>
        <NoBindingEmbedding>True</NoBindingEmbedding>
   </PropertyGroup>-->
